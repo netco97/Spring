@@ -35,6 +35,7 @@ public class HelloController {
         return hello; //문자가아닌 객체를 반환하므로 default인 json으로 변환됨
     }
 
+
     static class Hello{
         private String name;
 
